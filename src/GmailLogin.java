@@ -11,6 +11,7 @@ public class GmailLogin {
 		driver.get("https://mail.google.com/");
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
+		
        
 	}
 
