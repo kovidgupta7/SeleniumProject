@@ -11,6 +11,8 @@ public class GmailAddress {
 		driver.get("https://mail.google.com/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		driver.quit(); 
+		
 
 	}
 
