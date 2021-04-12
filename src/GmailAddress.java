@@ -10,7 +10,8 @@ public class GmailAddress {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://mail.google.com/");
 		driver.manage().window().maximize();
-		
+		driver.manage().deleteAllCookies();
+
 	}
 
 }
